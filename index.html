@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Member login page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="verification.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="toolbar">
+        <form id="login" method="get" action="login.php">
+          <h2>Member Login</h2>
+          <div class="email">
+            <i class="fa fa-user icon"> </i>
+            <input type="text" name="Email" id="Email" placeholder="Email" />
+          </div>
+          <br /><br />
+          <div class="pass">
+            <i class="fas fa-lock"></i>
+            <input
+              type="Password"
+              name="Pass"
+              id="Pass"
+              placeholder="Password"
+            />
+          </div>
+          <br /><br /><br />
+          <input
+            type="button"
+            onClick="CheckEmail(document.getElementById('Email').value)"
+            name="LOGIN"
+            id="LOGIN"
+            value="LOGIN"
+          />
+          <br /><br />
+          <a class="forgot" href="#">forgot Username/password </a>
+          <br /><br /><br /><br /><br /><br />
+          <a class="create" href="#">Create your account </a>
+        </form>
+      </div>
+      <div class="bigImage">
+        <img
+          src="images/computer.PNG"
+          class="container-img"
+          alt="computer-circle"
+        />
+      </div>
+    </div>
+  </body>
+</html>
