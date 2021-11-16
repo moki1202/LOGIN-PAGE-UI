@@ -1,0 +1,107 @@
+body {
+  margin: 70px;
+  padding: 0;
+  background-image: linear-gradient(to right, #4d4184, #cd59e7);
+  font-family: Arial;
+}
+.container {
+  position: relative;
+  text-align-last: center;
+  width: 820px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 180px;
+  background: #ffffff;
+  border-radius: 15px;
+  height: 200px;
+}
+h2 {
+  text-align: center;
+  color: #000102;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#Email {
+  text-align-last: left;
+  float: center;
+  width: 290px;
+  height: 40px;
+  border: none;
+  background-color: #e2dada;
+  border-radius: 17px;
+  padding-left: 20px;
+}
+#Pass {
+  text-align-last: left;
+  width: 290px;
+  height: 40px;
+  border: none;
+  background-color: #e2dada;
+  border-radius: 17px;
+  padding-left: 20px;
+}
+#LOGIN {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: #0dd64d;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: rgb(255, 255, 255);
+}
+
+a.forgot {
+  float: center;
+  color: #aca6a6;
+  background-color: rgb(255, 254, 254);
+}
+
+a.create {
+  float: center;
+  color: #aca6a6;
+  background-color: rgb(255, 254, 254);
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+  color: #0dd64d;
+}
+
+.toolbar {
+  position: absolute;
+  right: 200px;
+  bottom: 40px;
+  top: 40px;
+}
+
+.bigImage {
+  position: absolute;
+  left: 240px;
+  bottom: 40px;
+  top: 120px;
+}
+
+.email i {
+  position: absolute;
+}
+.pass i {
+  position: absolute;
+}
+
+.icon {
+  padding: 15px;
+  color: rgb(49, 0, 128);
+  width: 70px;
+  text-align: left;
+}
+
+.email {
+  position: relative;
+}
+
+.pass {
+  position: relative;
+}
